@@ -26,21 +26,25 @@
 
 #BenefitsBanner {
   display: flex;
-
+  font-weight: 400;
+  align-items: center;
 
   .benefits-banner-items{
     display: flex;
+    gap: 80px;
   }
 
   .benefits-item{
     display: flex;
     align-items: center;
     gap: 10px;
+    max-width: 400px;
   }
 }
 
 .benefits-banner-header h2{
     font-size: 32px;
+    line-height: 125%;
 }
 
 .benefits-banner-header p{
@@ -48,3 +52,12 @@
 }
 
 
+.benefits-banner-items h4 {
+  font-size: 18px;
+}
+
+
+.benefits-banner-items h5 {
+  font-size: 16px;
+  color: #69717f;;
+}
