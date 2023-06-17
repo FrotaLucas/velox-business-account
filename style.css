@@ -35,8 +35,16 @@
   .benefits-item{
     display: flex;
     align-items: center;
+    gap: 10px;
   }
 }
 
+.benefits-banner-header h2{
+    font-size: 32px;
+}
+
+.benefits-banner-header p{
+  font-size: 18px;
+}
 
 
