@@ -16,3 +16,27 @@
   width: 500px;
 
 }
+
+#BannerContainer button {
+  font-size: 18px;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#BenefitsBanner {
+  display: flex;
+
+
+  .benefits-banner-items{
+    display: flex;
+  }
+
+  .benefits-item{
+    display: flex;
+    align-items: center;
+  }
+}
+
+
+
