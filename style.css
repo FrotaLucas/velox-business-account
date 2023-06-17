@@ -1,0 +1,18 @@
+#BannerContainer{
+  font-family: Helvetica;
+  color: white;
+  font-weight: 400;
+}
+
+#BannerContainer h1 {
+  font-size: 48px;
+  line-height: 125%;
+  width: 600px;
+}
+
+#BannerContainer p {
+  font-size: 18px;
+  line-height: 150%;
+  width: 500px;
+
+}
