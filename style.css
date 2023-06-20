@@ -95,3 +95,23 @@ padding: 5% 0 0 0;
   cursor: pointer;
   padding: 11px 15px;
 }
+
+
+
+#BecomeCostumer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5% 0 0 0;
+
+  .become-costumer-title{
+    gap: 20px;
+  }
+
+  .become-costumer-content div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+}
