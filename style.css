@@ -28,6 +28,7 @@
   display: flex;
   align-items: center;
   background-color: #e6e7ea;
+  padding: 5% 0  0 0;
   
   .benefits-banner-items{
     display: flex;
@@ -65,17 +66,20 @@
 
 
 #FeaturesContainer {
+margin: 0 5%;
+padding: 5% 0 0 0;
 
 .feature-item{
+  display: flex;
+  gap: 20px;
+
+}
+.features-container-inner{
   display: flex;
 }
 }
 
-
-#FeaturesContainer{
-
-  .features-container-inner{
-    display: flex;
-  }
-
+#FeaturesContainer h2 {
+  margin: unset;
+  padding: 50px 5px;
 }
