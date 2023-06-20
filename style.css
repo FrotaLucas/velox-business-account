@@ -70,3 +70,12 @@
   display: flex;
 }
 }
+
+
+#FeaturesContainer{
+
+  .features-container-inner{
+    display: flex;
+  }
+
+}
