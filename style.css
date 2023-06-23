@@ -128,3 +128,29 @@ ol > li {
 ol {
   padding-inline-start: 0;
 }
+
+
+li {
+ position: relative;
+}
+
+li > span:nth-child(1) {
+  display: flex;
+  border: 1px solid  #b1d2ff;
+  background-color: #b1d2ff;
+  border-radius: 100%;
+  width: 25px;
+  height: 25px;
+  justify-content: center;
+  align-items: center;
+}
+li > span:nth-child(2) {
+
+  content: "";
+  position: absolute;
+  background-color: #b1d2ff;
+  height: 28px;
+  width: 2px;
+  left: 12px;
+  top: 36px;
+}
