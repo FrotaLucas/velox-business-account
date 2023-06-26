@@ -154,3 +154,17 @@ li > span:nth-child(2) {
   left: 12px;
   top: 36px;
 }
+
+#Questions {
+  padding: 5%;
+}
+
+#Questions > div > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content {
+  color: red;
+  display: none;
+}
