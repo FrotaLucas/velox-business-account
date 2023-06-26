@@ -164,7 +164,15 @@ li > span:nth-child(2) {
   justify-content: space-between;
 }
 
-.content {
-  color: red;
-  display: none;
+.collapsible {
+  cursor: pointer;
 }
+
+.content-question {
+  display: none;
+  /* transition: all 1s ease; */
+}
+
+.content-question-animation {
+  display: block;
+  }
