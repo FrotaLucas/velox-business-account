@@ -144,6 +144,7 @@ li > span:nth-child(1) {
   justify-content: center;
   align-items: center;
 }
+
 li > span:nth-child(2) {
 
   content: "";
@@ -155,13 +156,91 @@ li > span:nth-child(2) {
   top: 36px;
 }
 
+
+#DoMoreForYourBusiness {
+  padding: 5%;
+  background-color: #e6e7ea;
+
+  .domore-innertext{
+    display: flex;
+    justify-content: flex-start;
+    gap: 100px;
+  }
+
+  .domore-innertext > div:nth-child(1) {
+    width: 40%;
+  }
+
+  .domore-innertext > div > div  {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .domore-benefit{
+    display: flex;
+    gap: 5px;
+  }
+
+  .domore-cards {
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+  .card {
+    width: 30%;
+    border: 1px solid black;
+    border-radius: 5%;
+    background-color: white;
+    padding: 10px;
+  }
+
+  .price {
+    background-color: #b1d2ff;
+    border-radius: 20px;
+    padding: 8px;
+    width: max-content;
+  }
+  .card-content-item{
+    display: flex;
+    gap: 5px;
+  }
+
+  .open-benefit{
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+
+
 #Questions {
   padding: 5%;
+  background-color: white;
 }
 
 #Questions > div > div {
   display: flex;
   justify-content: space-between;
+}
+
+#Question > div {
+  position: relative;
+
+}
+
+  /* REVISAR -----------------------------------------------*/
+#Question > div > span {
+
+
+  content: "";
+  position: absolute;
+  background-color: #b1d2ff;
+  height: 28px;
+  width: 2px;
+  left: 12px;
+  top: 36px;
+
 }
 
 .collapsible {
