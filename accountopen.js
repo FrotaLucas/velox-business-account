@@ -6,6 +6,7 @@ window.addEventListener("DOMContentLoaded", function() {
       var img = this.querySelector("img");
       var elem = this.nextElementSibling;
 
+      //elem.style.display
       if (window.getComputedStyle(elem).display === "none") {
         elem.classList.remove("content-question");
         elem.classList.add("content-question-animation")
