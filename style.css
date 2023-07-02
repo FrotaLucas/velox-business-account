@@ -29,6 +29,7 @@
   align-items: center;
   background-color: #e6e7ea;
   padding: 5% 0  0 0;
+  font-family: Helvetica;
   
   .benefits-banner-items{
     display: flex;
@@ -68,6 +69,7 @@
 #FeaturesContainer {
 margin: 0 5%;
 padding: 5% 0 5% 0;
+font-family: Helvetica;
 
 
 .feature-item{
@@ -104,6 +106,8 @@ padding: 5% 0 5% 0;
   justify-content: space-around;
   align-items: center;
   padding: 5% 0 0 0;
+  font-family: Helvetica;
+
 
   .become-costumer-title{
     gap: 20px;
@@ -160,6 +164,9 @@ li > span:nth-child(2) {
 #DoMoreForYourBusiness {
   padding: 5%;
   background-color: #e6e7ea;
+  height: 900px;
+  font-family: Helvetica;
+
 
   .domore-innertext{
     display: flex;
@@ -183,11 +190,12 @@ li > span:nth-child(2) {
 
   .domore-cards {
     display: flex;
-    justify-content: space-between;
+    gap: 10px;
 
   }
 
   .card {
+    font: Verdana;
     width: 30%;
     border: 1px solid black;
     border-radius: 5%;
@@ -210,13 +218,32 @@ li > span:nth-child(2) {
     display: flex;
     justify-content: space-between;
   }
+
+  .hidden-benefit{
+    display: none;
+  }
 }
+
 
 
 
 #Questions {
   padding: 5%;
   background-color: white;
+  font-family: Helvetica;
+
+
+  .button-questions{
+    border-radius: 5px;
+    padding: 11px 15px;
+    border-width: 0.8px;
+    cursor: pointer;
+    margin-top: 40px;
+  }
+}
+
+#Questions > h2 {
+  margin-bottom: 50px;
 }
 
 #Questions > div > div {
@@ -224,22 +251,20 @@ li > span:nth-child(2) {
   justify-content: space-between;
 }
 
-#Question > div {
+#Questions > div > div {
   position: relative;
+  padding-top: 20px;
+  padding-bottom: 20px;
 
 }
 
-  /* REVISAR -----------------------------------------------*/
-#Question > div > span {
-
-
+#Questions > div > span {
   content: "";
   position: absolute;
-  background-color: #b1d2ff;
-  height: 28px;
-  width: 2px;
-  left: 12px;
-  top: 36px;
+  background-color: #00000033;
+  left: 79px;
+  width: 1355px;
+  height: 2px;
 
 }
 
