@@ -246,6 +246,10 @@ li > span:nth-child(2) {
   margin-bottom: 50px;
 }
 
+#Questions > div > p{
+  line-height: 150%;
+}
+
 #Questions > div > div {
   display: flex;
   justify-content: space-between;
